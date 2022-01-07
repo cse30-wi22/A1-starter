@@ -12,7 +12,7 @@ int main(int argc, char* argv[]) {
 
     if (argc != 2) {
         fprintf(stderr, "%s wrong number of arguments\n", argv[0]);
-        return (EXIT_FAILURE);
+        return EXIT_FAILURE;
     }
 
 
@@ -23,4 +23,3 @@ int main(int argc, char* argv[]) {
 
     return EXIT_SUCCESS; 
 }
-
